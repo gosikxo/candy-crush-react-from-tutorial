@@ -34,6 +34,7 @@ const App = () => {
           <img
             key={index}
             style={{ backgroundColor: candyColor }}
+            alt={candyColor}
           />
         ))}
       </div>
